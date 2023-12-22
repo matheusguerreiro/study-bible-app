@@ -1,9 +1,10 @@
 import './App.sass';
+import {Header} from './components/index'
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <Header />
     </div>
   );
 }
