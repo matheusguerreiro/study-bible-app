@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.sass";
-import { Header, Main, Nav } from "./components";
+import { Footer, Header, Main, Nav } from "./components";
 import { Home } from "./pages";
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
           </Routes>
         </Main>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
